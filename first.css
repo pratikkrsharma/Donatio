@@ -1,0 +1,85 @@
+.v1{
+    border-left:2px solid black;
+    height:200px;
+}
+body{
+    background-color: whitesmoke;
+}
+.sidenav {            
+    position: absolute;
+    z-index: 1;   
+    overflow-x: scroll;
+    overflow-y: scroll;
+    padding: 2%;
+    background-color: whitesmoke;
+    color: brown;
+    height: 400px;
+    border: 2px solid #bc8888;
+    border-radius: 10px;
+    margin-left: 1%;
+}
+.sidenav a {
+    text-decoration: blink;
+    font-size: 15px;
+    color: #818181;
+    display: block;
+    color: brown;
+}
+.sidenav a:hover{
+    color: black;
+}
+.sidenav li{
+    color: brown;
+    padding: 1%;
+}
+.sidenav  li:hover{
+    color: black;
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.border{
+    border: 1px solid black;
+    padding: 20px;
+    width: 65%;
+}
+.ftrbtn{
+    background-color: #bc8888;
+    padding: 2px 10px;
+    margin-top: 10px;
+    color: whitesmoke;
+    float: right;
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+    font-style: bold;
+    font-size: 20px;
+}
+.ftrbg{
+    background-color: #bc8888;
+    width: 100%;
+    margin-top: 70px;
+}
+.ftrbg a{
+    background-color: #bc8888;
+}
+.ftrbg a:hover{
+    color: black;
+}
+.ftrimg img{
+    display: block;
+    margin-left: -15px;
+    opacity: 0.6;
+}
+.background{
+    background-color: black;
+    opacity: 0.8;
+}
+.font a{
+    color: brown;
+    font-size: 15px;
+}
+.font a:hover{
+    color: black;
+}
